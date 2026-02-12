@@ -37,8 +37,8 @@ CI/CD 管道管理系统是一个用于自动化构建、测试和部署软件�
 2. **启动步骤**：
    ```bash
    # 克隆代码库
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/googs1025/ci-cd-orchestrator
+   cd ci-cd-orchestrator
 
    # 安装依赖
    go mod tidy
