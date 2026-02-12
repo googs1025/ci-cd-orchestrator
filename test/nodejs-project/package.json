@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-project",
+  "version": "1.0.0",
+  "description": "Node.js 项目示例",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^18.2.0",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "react",
+    "vue"
+  ],
+  "author": "Example",
+  "license": "MIT"
+}

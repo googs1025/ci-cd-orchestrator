@@ -1,0 +1,24 @@
+name: Mock CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: mock-runner
+    # 资源配置
+    resources:
+      limits:
+        cpu: 2
+        memory: 4G
+      requests:
+        cpu: 1
+        memory: 2G
+    steps:
+    - name: Mock checkout
+      run: echo "Mock checkout step"
+    - name: Mock build
+      run: echo "Mock build step"
+    - name: Mock test
+      run: echo "Mock test step"
